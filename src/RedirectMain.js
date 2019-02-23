@@ -9,11 +9,13 @@ import AfterEntry from './AfterEntry';
 import AskAgain from './AskAgain';
 import SeeYouAgain from './SeeYouAgain';
 import Funny2 from './Funny2';
+import Intruction from './Intruction';
+import letplaygame from './letplaygame.js';
+import game1 from './Game1.js';
 class RedirectMain extends Component {
     render() {
         return (
             <Switch>
-
             <Route exact path="/funny1" component={Funny1}></Route>
             <Route exact path="/textentry" component={TextEntry} ></Route>
             <Route exact path="/" component={MainScreen}></Route>
@@ -21,6 +23,9 @@ class RedirectMain extends Component {
             <Route exact path="/askagain" component={AskAgain}></Route>
             <Route exact path="/seeyouagain" component={SeeYouAgain}></Route>
             <Route exact path="/funny2" component={Funny2}></Route>
+            <Route exact path="/instruction" component={Intruction}></Route>
+            <Route exact path="/letplaygame" component={letplaygame}></Route>
+            <Route exact path="/game1" component={game1}></Route>
         </Switch>
         );
     }

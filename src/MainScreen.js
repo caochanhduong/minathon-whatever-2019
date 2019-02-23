@@ -21,13 +21,13 @@ class MainScreen extends Component {
       </div>
     </StyleRoot>
             <div className="container">
-            <NavLink to="/funny1">
+            <NavLink to="/letplaygame">
             <button type="button" className="btn btn-success btn-lg btn3d"><span className="glyphicon glyphicon-ok" /> YES</button>
             </NavLink>
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" style={{height:'100px',width:'100px'}}></img>
             </div>
             <div className="container">
-            <NavLink to="/textentry">
+            <NavLink to="/instruction">
             <button type="button" className="btn btn-danger btn-lg btn3d"><span className="glyphicon glyphicon-remove" /> NO</button>
             <img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Very_sad_emoji_icon_png_grande.png?v=1480481019" style={{height:'90px',width:'90px'}}></img>
 
