@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
 import './MainScreen.css';
-
+import $ from 'jquery';
 class TextEntry extends Component {
     constructor(props) {
         super(props);
@@ -35,12 +35,7 @@ class TextEntry extends Component {
             <div className="container">
                 <div className="form-group">
                 <form id="paper" onSubmit={this.handleSubmit}>
-                <script>
-                $(document).ready(function(){
-    $('#title').focus();
-      $('#text').autosize();
-  });
-                </script>
+
   <h1 htmlFor="exampleFormControlTextarea1" style={{textAlign:'center'} }className="test" >WHAT MAKES YOU SAD?</h1>
   <textarea className="form-control" name="text" id="text" rows={3} defaultValue={""} value={this.state.text} onChange={this.handleChange} style={{marginLeft:'200px'}}/>
   <div className="container" style={{alignContent:'center',paddingLeft:'250px'}}>
