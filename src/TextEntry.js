@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
 import './MainScreen.css';
-import $ from 'jquery';
 
 class TextEntry extends Component {
     constructor(props) {
@@ -90,15 +89,15 @@ class TextEntry extends Component {
     render() {
         console.log(this.state.count1);
         return (
-            
+            <div className="textentry">
             <div className="container">
                 <div className="form-group">
                 <form id="paper" onSubmit={this.handleSubmit}>
 
-  <h1 htmlFor="exampleFormControlTextarea1" style={{textAlign:'center'} }className="test" >WHAT MAKES YOU SAD?</h1>
+  <h1 htmlFor="exampleFormControlTextarea1" style={{textAlign:'center',marginTop:"15px"} }className="test" >WHAT MAKES YOU SAD?</h1>
   <textarea className="form-control" name="text" id="text" rows={3} defaultValue={""} value={this.state.text} onChange={this.handleChange} style={this.state.styles}/>
-  <div className="container" style={{alignContent:'center',paddingLeft:'40%'}}>
-
+  <div className="container" style={{alignContent:'center',marginLeft:'-20px'}}>
+<br></br>
 {this.renderButton()}
 
  
@@ -109,6 +108,7 @@ class TextEntry extends Component {
   </form>
 </div>
 
+            </div>
             </div>
         
         );

@@ -15,6 +15,10 @@ import game1 from './Game1.js';
 import game2 from './game2';
 import game3 from './game3';
 import game4 from './game4';
+import game5 from './game5';
+import game6 from './game6';
+import game7 from './game7';
+import game8 from './game8';
 class RedirectMain extends Component {
     render() {
         return (
@@ -32,6 +36,10 @@ class RedirectMain extends Component {
             <Route exact path="/game2" component={game2}></Route>
             <Route exact path="/game3" component={game3}></Route>
             <Route exact path="/game4" component={game4}></Route>
+            <Route exact path="/game5" component={game5}></Route>
+            <Route exact path="/game6" component={game6}></Route>
+            <Route exact path="/game7" component={game7}></Route>
+            <Route exact path="/game8" component={game8}></Route>
         </Switch>
         );
     }
