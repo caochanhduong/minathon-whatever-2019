@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Textentry from './TextEntry';
 import * as serviceWorker from './serviceWorker';
-
+import AfterEntry from './AfterEntry';
+import AskAgain from './AskAgain';
+import SeeyouAgain from './SeeYouAgain';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

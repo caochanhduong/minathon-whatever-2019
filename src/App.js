@@ -2,19 +2,17 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Badge } from 'reactstrap';
+import RedirectMain from './RedirectMain';
+import './MainScreen.css';
+import {
+  BrowserRouter as Router
+} from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      <h1>Are you OK?</h1>
-      <div className="container">
-      <button type="button" className="btn btn-success btn-lg btn3d"><span className="glyphicon glyphicon-ok" /> YES</button>
-
-      </div>
-      <div className="container">
-      <button type="button" className="btn btn-danger btn-lg btn3d"><span className="glyphicon glyphicon-remove" /> NO</button>
-      </div>
-      </div>
+      <Router>
+        <RedirectMain />
+      </Router>
     );
   }
 }
