@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <h1>Are you OK?<Badge color="secondary">New</Badge></h1>
+      <h1>Are you OK?</h1>
       <div className="container">
       <button type="button" className="btn btn-success btn-lg btn3d"><span className="glyphicon glyphicon-ok" /> YES</button>
 
