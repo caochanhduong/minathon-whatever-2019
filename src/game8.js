@@ -9,7 +9,7 @@ class game8 extends Component {
              <h1 style={{paddingTop:'20px',backgroundColor:'pink',color:'blue'}}>LEVEL 5: TRY TO CATCH THE YES BUTTON AGAIN <br></br>AND WITH MORE AND MORE BUTTON</h1>  
              </div> 
             <div className="funny5a">
-            <NavLink to="/game7">
+            <NavLink to="/finalscreen">
             <button type="button" className="btn btn-success btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> YES</button>
             </NavLink>
             </div>
@@ -61,37 +61,37 @@ class game8 extends Component {
         </div>
 
         <div className="funny5ado">
-                <NavLink to="/game6">
+                <NavLink to="/game7">
                 <button type="button" className="btn btn-danger btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
                 </NavLink>
         </div>
         <div className="funny5bdo">
-                <NavLink to="/game6">
+                <NavLink to="/game7">
                 <button type="button" className="btn btn-danger btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
                 </NavLink>
         </div>
         <div className="funny5cdo">
-                <NavLink to="/game6">
+                <NavLink to="/game7">
                 <button type="button" className="btn btn-danger btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
                 </NavLink>
         </div>
         <div className="funny5ddo">
-                <NavLink to="/game6">
+                <NavLink to="/game7">
                 <button type="button" className="btn btn-danger btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
                 </NavLink>
         </div>
         <div className="funny5fdo">
-                <NavLink to="/game6">
+                <NavLink to="/game7">
                 <button type="button" className="btn btn-danger btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
                 </NavLink>
         </div>
         <div className="funny5gdo">
-                <NavLink to="/game6">
+                <NavLink to="/game7">
                 <button type="button" className="btn btn-danger btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
                 </NavLink>
         </div>
         <div className="funny5hdo">
-                <NavLink to="/game6">
+                <NavLink to="/game7">
                 <button type="button" className="btn btn-danger btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
                 </NavLink>
         </div>

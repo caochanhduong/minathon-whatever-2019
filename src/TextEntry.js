@@ -47,7 +47,7 @@ class TextEntry extends Component {
       
           
         });
-        if (this.state.count1==8)
+        if (this.state.count1==9)
         this.setState({
             styles1:{
                 marginTop:'100px'
@@ -66,17 +66,17 @@ class TextEntry extends Component {
         renderButton(){
             if (this.state.styles.opacity>0)
             {
-                return   <input type="submit" value="CLEAR ALL!" className="btn btn-danger btn-lg btn3d" style={this.state.styles1}/>
+                return   <input type="submit" value="FORGET IT!" className="btn btn-danger btn-lg btn3d" style={this.state.styles1}/>
             }
             else
             {
                 return (
                     <div>
-                <NavLink to="/letplaygame">
+                <NavLink to="/ask1">
                 <button type="button" className="btn btn-success btn-lg btn3d"  ><span className="glyphicon glyphicon-road" /> CONTINUE</button>
                 </NavLink>
 {
-    this.state.count<3 ?  <button onClick={this.increaseCount}  type="button" className="btn btn-success btn-lg btn3d"  ><span className="glyphicon glyphicon-road" /> RETRY</button> : <button onClick={this.increaseCount}  type="button" className="btn btn-success btn-lg btn3d"  disabled><span className="glyphicon glyphicon-road" /> RETRY</button> 
+    this.state.count<3 ?  <button onClick={this.increaseCount}  type="button" className="btn btn-success btn-lg btn3d"  ><span className="glyphicon glyphicon-road" /> RECALL</button> : <button onClick={this.increaseCount}  type="button" className="btn btn-success btn-lg btn3d"  disabled><span className="glyphicon glyphicon-road" /> RECALL</button> 
     
 
 }

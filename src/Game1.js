@@ -5,7 +5,7 @@ import './App.css';
 class Game1 extends Component {
     render() {
         return (
-            <div className="game1">
+            <div className="game1" >
             <div className="container" style={{opacity:0.7,marginLeft:"10%"}}>
              <h1 style={{paddingTop:'20px',backgroundColor:'pink',color:'blue'}}>LEVEL 1: TRY TO CATCH THE YES BUTTON</h1>  
              </div> 

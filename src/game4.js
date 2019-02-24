@@ -5,25 +5,24 @@ import {NavLink} from 'react-router-dom';
 class game4 extends Component {
     render() {
         return (
-            <div>
-                <h1 style={{color:'white'}}>YOU MAY WANT TO PLAY SOME GAME !</h1>
-<Iframe url="https://gamevui.vn/"
+            <div className="game4">
+                <h1 style={{position:'relative'}}>TRY TO LISTEN TO MUSIC !</h1>
+<Iframe url="https://mp3.zing.vn/tim-kiem/bai-hat.html?q=happy+music"
         width="100%"
         height="450px"
         id="myId"
         className="myClassname"
         position="relative"
         allowFullScreen/>
-         <h1 style={{color:'white'}}>ARE YOU FEEL MORE OK ?</h1>
-        <div className="container" style={{paddingLeft:'35%'}}>
+
+        <div className="container" style={{paddingLeft:'0%'}}>
        
-            <NavLink to="/game5">
-            <button type="button" className="btn btn-success btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> YES</button>
+            <NavLink to="/ask3">
+            <button type="button" className="btn btn-success btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> CONTINUE</button>
             </NavLink>
-            <NavLink to="/">
-            <button type="button" className="btn btn-success btn-lg btn3d" ><span className="glyphicon glyphicon-ok" /> NO</button>
-            </NavLink>
+
             </div>
+            <br></br>
             </div>
         );
     }

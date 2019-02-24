@@ -4,7 +4,7 @@
  background-image: url('./image1.jpg');
  height: 800px;
  margin-top: -120px;
- padding-top: 10%;
+ padding-top: 5%;
 }
 h1 {
   cursor: default;
@@ -128,6 +128,21 @@ h1 span:nth-child(14) {
   height: 800px;
   margin-top: -20px;
   padding-top: 10%;
+  background-size: cover;
+}
+.game2{
+  text-align: center;
+  background-image: url('./image1.jpg');
+  height: 600px;
+  margin-top: -20px;
+  padding-top: 10%;
+}
+.game4{
+  text-align: center;
+  background-image: url('./image1.jpg');
+  height: 600px;
+  margin-top: -20px;
+  padding-top: 10%;
 }
 .game5{
   text-align: center;
@@ -155,7 +170,7 @@ h1 span:nth-child(14) {
 }
 .game7{
   text-align: center;
-  background-image: url('./stage4.jpg');
+  background-image: url('./1.PNG');
   height: 500px;
   margin-top: -20px;
   padding-top: 10%;

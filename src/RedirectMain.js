@@ -19,6 +19,10 @@ import game5 from './game5';
 import game6 from './game6';
 import game7 from './game7';
 import game8 from './game8';
+import Ask1 from './Ask1';
+import Ask2 from './Ask2';
+import Ask3 from './Ask3';
+import FinalScreen from './FinalScreen';
 class RedirectMain extends Component {
     render() {
         return (
@@ -33,6 +37,9 @@ class RedirectMain extends Component {
             <Route exact path="/instruction" component={Intruction}></Route>
             <Route exact path="/letplaygame" component={letplaygame}></Route>
             <Route exact path="/game1" component={game1}></Route>
+            <Route exact path="/ask1" component={Ask1}></Route>
+            <Route exact path="/ask2" component={Ask2}></Route>
+            <Route exact path="/ask3" component={Ask3}></Route>
             <Route exact path="/game2" component={game2}></Route>
             <Route exact path="/game3" component={game3}></Route>
             <Route exact path="/game4" component={game4}></Route>
@@ -40,6 +47,7 @@ class RedirectMain extends Component {
             <Route exact path="/game6" component={game6}></Route>
             <Route exact path="/game7" component={game7}></Route>
             <Route exact path="/game8" component={game8}></Route>
+            <Route exact path="/finalscreen" component={FinalScreen}></Route>
         </Switch>
         );
     }
