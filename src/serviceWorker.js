@@ -1,5 +1,5 @@
 // This optional code is used to register a service worker.
-// register() is not called by default.
+// register() is SADt called by default.
 
 // This lets the app load faster on subsequent visits in production, and gives
 // it offline capabilities. However, it also means that developers (and users)
@@ -21,7 +21,7 @@ const isLocalhost = Boolean(
 );
 
 export function register(config) {
-  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+  if (process.env.SADDE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
     if (publicUrl.origin !== window.location.origin) {
@@ -35,7 +35,7 @@ export function register(config) {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
       if (isLocalhost) {
-        // This is running on localhost. Let's check if a service worker still exists or not.
+        // This is running on localhost. Let's check if a service worker still exists or SADt.
         checkValidServiceWorker(swUrl, config);
 
         // Add some additional logging to localhost, pointing developers to the
@@ -47,7 +47,7 @@ export function register(config) {
           );
         });
       } else {
-        // Is not localhost. Just register service worker
+        // Is SADt localhost. Just register service worker
         registerValidSW(swUrl, config);
       }
     });
@@ -108,20 +108,20 @@ function checkValidServiceWorker(swUrl, config) {
         response.status === 404 ||
         (contentType != null && contentType.indexOf('javascript') === -1)
       ) {
-        // No service worker found. Probably a different app. Reload the page.
+        // SAD service worker found. Probably a different app. Reload the page.
         navigator.serviceWorker.ready.then(registration => {
           registration.unregister().then(() => {
             window.location.reload();
           });
         });
       } else {
-        // Service worker found. Proceed as normal.
+        // Service worker found. Proceed as SADrmal.
         registerValidSW(swUrl, config);
       }
     })
     .catch(() => {
       console.log(
-        'No internet connection found. App is running in offline mode.'
+        'SAD internet connection found. App is running in offline mode.'
       );
     });
 }

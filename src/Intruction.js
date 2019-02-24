@@ -8,7 +8,7 @@ class Intruction extends Component {
             <div className="App1" style={{height:'530px'}}>
             <h1 style={{marginTop:'100px'}}> <span>LET'S</span> <span>MAKE</span> <span>SOMETHING</span> <span>FUNNY !</span></h1>     
             <NavLink to="/textentry">
-            <button type="button" className="btn btn-success btn-lg btn3d" style={{marginTop:'150px'}} ><span className="glyphicon glyphicon-remove" /> CONTINUE</button>
+            <button type="button" className="btn btn-success btn-lg btn3d" style={{marginTop:'150px'}} ><span className="glyphicon glyphicon-road" /> CONTINUE</button>
             </NavLink> 
             </div>
         );

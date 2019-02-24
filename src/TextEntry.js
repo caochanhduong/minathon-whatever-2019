@@ -66,7 +66,7 @@ class TextEntry extends Component {
         renderButton(){
             if (this.state.styles.opacity>0)
             {
-                return   <input type="submit" value="FORGET IT!" className="btn btn-danger btn-lg btn3d" style={this.state.styles1}/>
+                return   <input type="submit" value="FORGET IT!" className="btn btn-danger btn-lg btn3d " style={this.state.styles1}/>
             }
             else
             {
@@ -76,7 +76,7 @@ class TextEntry extends Component {
                 <button type="button" className="btn btn-success btn-lg btn3d"  ><span className="glyphicon glyphicon-road" /> CONTINUE</button>
                 </NavLink>
 {
-    this.state.count<3 ?  <button onClick={this.increaseCount}  type="button" className="btn btn-success btn-lg btn3d"  ><span className="glyphicon glyphicon-road" /> RECALL</button> : <button onClick={this.increaseCount}  type="button" className="btn btn-success btn-lg btn3d"  disabled><span className="glyphicon glyphicon-road" /> RECALL</button> 
+    this.state.count<3 ?  <button onClick={this.increaseCount}  type="button" className="btn btn-warning btn-lg btn3d"  ><span className="glyphicon glyphicon-file" /> RECALL</button> : <button onClick={this.increaseCount}  type="button" className="btn btn-warning btn-lg btn3d"  disabled><span className="glyphicon glyphicon-file" /> RECALL</button> 
     
 
 }
@@ -94,7 +94,7 @@ class TextEntry extends Component {
                 <div className="form-group">
                 <form id="paper" onSubmit={this.handleSubmit}>
 
-  <h1 htmlFor="exampleFormControlTextarea1" style={{textAlign:'center',marginTop:"15px"} }className="test" >WHAT MAKES YOU SAD?</h1>
+  <h1 htmlFor="exampleFormControlTextarea1" style={{textAlign:'center',marginTop:"15px",color:'black'} } >WHAT MAKES YOU SAD?</h1>
   <textarea className="form-control" name="text" id="text" rows={3} defaultValue={""} value={this.state.text} onChange={this.handleChange} style={this.state.styles}/>
   <div className="container" style={{alignContent:'center',marginLeft:'-20px'}}>
 <br></br>

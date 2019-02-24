@@ -1,709 +1,723 @@
 div.funny {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  /* Standard syntax */
-  @keyframes example {
-    0%   {background-color:red; left:66%; top:20%;}
-    25%  {background-color:yellow; left:50%; top:0px;}
-    50%  {background-color:blue; left:200px; top:25%;}
-    75%  {background-color:green; left:0px; top:100%;}
-    100% {background-color:red; left:100%px; top:0px;}
-  }
-
-  div.funny2a {
-    width: 0px;
-    height: 0px;
-    padding-left: 50%;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 2s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-  /* Standard syntax */
-  @keyframes example {
-    0%   {background-color:red; left:50%; top:0px;}
-    25%  {background-color:yellow; left:75%; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    100% {background-color:red; left:0px; top:30px;}
-  }
-
-  div.funny2b {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example1;
-    animation-duration: 3s;
-    animation-iteration-count: 1000;
-  }
-
-  /* Standard syntax */
-  @keyframes example1 {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:350px; top:100px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    100% {background-color:red; left:0px; top:30px;}
-  }
-  div.funny2c {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  
-  div.funny2cdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 0.8s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 0.8s;
-    animation-iteration-count: 1000;
-  }
-  
-  div.funny3a {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example1;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3ado {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example1;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3b {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3bdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3c {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example3;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3cdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example3;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3d {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example4;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3ddo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example4;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3e {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example5;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-  div.funny3edo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example5;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1000;
-  }
-
-
-  div.funny4a {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example1;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-  /* Standard syntax */
-  @keyframes example3 {
-    0%   {background-color:red; left:22%; top:0px;}
-    20%  {background-color:yellow; left:60%; top:32%;}
-    50%  {background-color:blue; left:54%; top:23%;}
-    60%  {background-color:blue; left:4%; top:38%;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:12%; top:0px;}
-  }
-
-  div.funny4b {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  /* Standard syntax */
-  @keyframes example4 {
-    0%   {background-color:red; left:65%; top:30%;}
-    25%  {background-color:yellow; left:40%; top:15%;}
-    50%  {background-color:blue; left:45%; top:31%;}
-    75%  {background-color:green; left:52%; top:71%;}
-    100% {background-color:red; left:30%; top:50%;}
-  }
-
-
-  div.funny4c {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example3;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-
-  /* Standard syntax */
-  @keyframes example5 {
-    0%   {background-color:red; left:65%; top:10%;}
-    25%  {background-color:yellow; left:48%; top:55%;}
-    50%  {background-color:blue; left:47%; top:38%;}
-    75%  {background-color:green; left:52%; top:0%;}
-    100% {background-color:red; left:39%; top:50%;}
-  }
-
-
-  div.funny4d {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example4;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  /* Standard syntax */
-  @keyframes example6 {
-    0%   {background-color:red; left:61%; top:11%;}
-    25%  {background-color:yellow; left:48%; top:6%;}
-    50%  {background-color:blue; left:47%; top:34%;}
-    75%  {background-color:green; left:32%; top:100%;}
-    80%  {background-color:green; left:5%; top:100%;}
-    100% {background-color:red; left:39%; top:5%;}
-  }
-
-
-  div.funny4d {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example5;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  /* Standard syntax */
-  @keyframes example7 {
-    0%   {background-color:red; left:12%; top:50%;}
-    25%  {background-color:yellow; left:41%; top:65%;}
-    40%  {background-color:blue; left:14%; top:43%;}
-    50%  {background-color:blue; left:0%; top:61%;}
-    75%  {background-color:green; left:31%; top:100%;}
-    80%  {background-color:green; left:51%; top:10%;}
-    100% {background-color:red; left:20%; top:5%;}
-  }
-
-
-  div.funny4e {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example6;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-  /* Standard syntax */
-  @keyframes example8 {
-    0%   {background-color:red; left:52%; top:70%;}
-    25%  {background-color:yellow; left:31%; top:55%;}
-    40%  {background-color:blue; left:24%; top:47%;}
-    50%  {background-color:blue; left:20%; top:31%;}
-    75%  {background-color:green; left:35%; top:70%;}
-    80%  {background-color:green; left:71%; top:50%;}
-    100% {background-color:red; left:80%; top:5%;}
-  }
-
-
-
-  div.funny4f {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example7;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-
-  
-  /* Standard syntax */
-  @keyframes example9 {
-    0%   {background-color:red; left:72%; top:40%;}
-    25%  {background-color:yellow; left:91%; top:25%;}
-    40%  {background-color:blue; left:84%; top:67%;}
-    50%  {background-color:blue; left:30%; top:91%;}
-    75%  {background-color:green; left:45%; top:10%;}
-    80%  {background-color:green; left:51%; top:90%;}
-    85%  {background-color:green; left:81%; top:40%;}
-    100% {background-color:red; left:80%; top:15%;}
-  }
-
-
-
-  div.funny4g {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example8; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example8;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  /* Standard syntax */
-  @keyframes example10 {
-    0%   {background-color:red; left:72%; top:40%;}
-    25%  {background-color:yellow; left:51%; top:85%;}
-    40%  {background-color:blue; left:44%; top:27%;}
-    50%  {background-color:blue; left:70%; top:41%;}
-    75%  {background-color:green; left:75%; top:10%;}
-    80%  {background-color:green; left:21%; top:50%;}
-    85%  {background-color:green; left:51%; top:80%;}
-    100% {background-color:red; left:10%; top:95%;}
-  }
-
-
-  div.funny4ado {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example1;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-
-
-  div.funny4bdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  div.funny4cdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example3;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-
-
-  div.funny4ddo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example4;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
- 
-
-  div.funny4edo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example5;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  div.funny5a {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example1;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-
-  div.funny5b {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-
-
-  div.funny5c {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example3;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-
-
-  div.funny5d {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example4;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-
-  div.funny5e {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example5;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-
-
-  div.funny5f {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example6;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-
-
-  div.funny5g {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example7;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-
-  div.funny5h {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example8; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example8;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
- 
-
-
-  div.funny5i {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example9; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example9;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-  
-
-
-  div.funny5k {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example10; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example10;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  
-
-
-  div.funny5ado {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example1;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  div.funny5bdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example2;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-
-  div.funny5cdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example3;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-
-  div.funny5ddo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example3;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  div.funny5edo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example4;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  div.funny5fdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example5;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  div.funny5gdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example6;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
-  div.funny5hdo {
-    width: 0px;
-    height: 0px;
-    position: relative;
-    -webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    animation-name: example7;
-    animation-duration: 1s;
-    animation-iteration-count: 1000;
-  }
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 5; /* Safari 4.0 - 8.0 */
+  animation-name: example0;
+  animation-duration: 13s;
+  animation-iteration-count: 1000;
+}
+
+
+/* Standard syntax */
+@keyframes example0 {
+  0%   {background-color:red; left:0%; top: 10%;}
+  10%   {background-color:red; left:85%; top:0%;}
+  20%   {background-color:red; left:90%; top:85%;}
+  30%   {background-color:red; left:5%; top:80%;}
+  40%   {background-color:red; left:0%; top:10%;}
+  50%   {background-color:red; left:90%; top:10%;}
+  60%   {background-color:red; left:85%; top:80%;}
+  70%   {background-color:red; left:0%; top:85%;}
+  80%   {background-color:red; left:50%; top:75%;}
+  90%   {background-color:red; left:5%; top:65%;}
+  100%   {background-color:red; left:0%; top:10%;}
+}
+
+div.funny2a {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 1000;
+}
+
+
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; left:0%; top:0%;}
+  25%  {background-color:yellow; left:85%; top:5%;}
+  50%  {background-color:blue; left:90%; top:80%}
+  75%  {background-color:blue; left:10%; top:85%}
+  100% {background-color:red; left:0%; top:0%;}
+}
+
+div.funny2b {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+}
+
+/* Standard syntax */
+@keyframes example1 {
+  0%   {background-color:red; left:10%; top:10%;}
+  25%  {background-color:yellow; left:90%; top:0%;}
+  50%  {background-color:blue; left:95%; top:82%}
+  75%  {background-color:blue; left:4%; top:76%}
+  100% {background-color:red; left:10%; top:10%;}
+}
+div.funny2c {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 3.5s;
+  animation-iteration-count: 1000;
+}
+
+div.funny2cdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 5s;
+  animation-iteration-count: 1000;
+}
+@keyframes example2 {
+  0%   {background-color:red; left:8%; top:15%;}
+  25%  {background-color:yellow; left:80%; top:4%;}
+  50%  {background-color:blue; left:88%; top:85%}
+  75%  {background-color:blue; left:5%; top:80%}
+  100% {background-color:red; left:8%; top:15%;}
+}
+
+div.funny3a {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: 1000;
+}
+div.funny3ado {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 6s;
+  animation-iteration-count: 1000;
+}
+div.funny3b {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+}
+div.funny3bdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: 1000;
+}
+div.funny3c {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-duration: 5s;
+  animation-iteration-count: 1000;
+}
+div.funny3cdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-duration: 4.5s;
+  animation-iteration-count: 1000;
+}
+div.funny3d {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-duration: 3.5s;
+  animation-iteration-count: 1000;
+}
+div.funny3ddo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-duration: 6s;
+  animation-iteration-count: 1000;
+}
+div.funny3e {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-duration: 3.8s;
+  animation-iteration-count: 1000;
+}
+div.funny3edo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-duration: 5.4s;
+  animation-iteration-count: 1000;
+}
+
+
+div.funny4a {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1000;
+}
+
+
+
+/* Standard syntax */
+@keyframes example3 {
+  0%   {background-color:red; left:22%; top:0px;}
+  20%  {background-color:yellow; left:60%; top:32%;}
+  50%  {background-color:blue; left:54%; top:23%;}
+  60%  {background-color:blue; left:4%; top:38%;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:12%; top:0px;}
+}
+
+div.funny4b {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 3.5s;
+  animation-iteration-count: 1000;
+}
+
+
+/* Standard syntax */
+@keyframes example4 {
+  0%   {background-color:red; left:65%; top:30%;}
+  25%  {background-color:yellow; left:40%; top:15%;}
+  50%  {background-color:blue; left:45%; top:31%;}
+  75%  {background-color:green; left:52%; top:71%;}
+  100% {background-color:red; left:30%; top:50%;}
+}
+
+
+div.funny4c {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count: 1000;
+}
+
+/* Standard syntax */
+@keyframes example5 {
+  0%   {background-color:red; left:65%; top:10%;}
+  25%  {background-color:yellow; left:48%; top:55%;}
+  50%  {background-color:blue; left:47%; top:38%;}
+  75%  {background-color:green; left:52%; top:0%;}
+  100% {background-color:red; left:39%; top:50%;}
+}
+
+
+div.funny4d {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-duration: 3.7s;
+  animation-iteration-count: 1000;
+}
+
+
+/* Standard syntax */
+@keyframes example6 {
+  0%   {background-color:red; left:61%; top:11%;}
+  25%  {background-color:yellow; left:48%; top:6%;}
+  50%  {background-color:blue; left:47%; top:34%;}
+  75%  {background-color:green; left:32%; top:85%;}
+  80%  {background-color:green; left:5%; top:85%;}
+  100% {background-color:red; left:39%; top:5%;}
+}
+
+
+div.funny4d {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-duration: 3.2s;
+  animation-iteration-count: 1000;
+}
+
+
+/* Standard syntax */
+@keyframes example7 {
+  0%   {background-color:red; left:12%; top:50%;}
+  25%  {background-color:yellow; left:41%; top:65%;}
+  40%  {background-color:blue; left:14%; top:43%;}
+  50%  {background-color:blue; left:0%; top:61%;}
+  75%  {background-color:green; left:31%; top:85%;}
+  80%  {background-color:green; left:51%; top:10%;}
+  100% {background-color:red; left:20%; top:5%;}
+}
+
+
+div.funny4e {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example6;
+  animation-duration: 4.8s;
+  animation-iteration-count: 1000;
+}
+
+
+
+/* Standard syntax */
+@keyframes example8 {
+  0%   {background-color:red; left:52%; top:70%;}
+  25%  {background-color:yellow; left:31%; top:55%;}
+  40%  {background-color:blue; left:24%; top:47%;}
+  50%  {background-color:blue; left:20%; top:31%;}
+  75%  {background-color:green; left:35%; top:70%;}
+  80%  {background-color:green; left:71%; top:50%;}
+  100% {background-color:red; left:80%; top:5%;}
+}
+
+
+
+div.funny4f {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example7;
+  animation-duration: 5.2s;
+  animation-iteration-count: 1000;
+}
+
+
+/* Standard syntax */
+@keyframes example9 {
+  0%   {background-color:red; left:72%; top:40%;}
+  25%  {background-color:yellow; left:91%; top:25%;}
+  40%  {background-color:blue; left:84%; top:67%;}
+  50%  {background-color:blue; left:30%; top:84%;}
+  75%  {background-color:green; left:45%; top:10%;}
+  80%  {background-color:green; left:51%; top:83%;}
+  85%  {background-color:green; left:81%; top:40%;}
+  100% {background-color:red; left:80%; top:15%;}
+}
+
+
+
+div.funny4g {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example8; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example8;
+  animation-duration: 6.1s;
+  animation-iteration-count: 1000;
+}
+
+
+/* Standard syntax */
+@keyframes example10 {
+  0%   {background-color:red; left:72%; top:40%;}
+  25%  {background-color:yellow; left:51%; top:85%;}
+  40%  {background-color:blue; left:44%; top:27%;}
+  50%  {background-color:blue; left:70%; top:41%;}
+  75%  {background-color:green; left:75%; top:10%;}
+  80%  {background-color:green; left:21%; top:50%;}
+  85%  {background-color:green; left:51%; top:80%;}
+  100% {background-color:red; left:10%; top:85%;}
+}
+
+
+div.funny4ado {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 4.3s;
+  animation-iteration-count: 1000;
+}
+
+
+div.funny4bdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+}
+div.funny4cdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-iteration-count: 1000;
+}
+
+
+div.funny4ddo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-duration: 7s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+
+div.funny4edo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-duration: 6s;
+  animation-iteration-count: 1000;
+}
+
+
+div.funny5a {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+div.funny5b {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+
+div.funny5c {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+div.funny5d {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-duration: 4s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+div.funny5e {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-duration: 5s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+
+div.funny5f {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example6;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+
+div.funny5g {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example7;
+  animation-duration: 5.6s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+div.funny5h {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example8; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example8;
+  animation-duration: 3.2s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+
+
+div.funny5i {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example9; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example9;
+  animation-duration: 4.5s;
+  animation-iteration-count: 1000;
+}
+
+
+
+
+
+div.funny5k {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example10; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example10;
+  animation-duration: 5.5s;
+  animation-iteration-count: 1000;
+}
+
+
+
+div.funny5ado {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 1s;
+  animation-iteration-count: 1000;
+}
+div.funny5bdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1000;
+}
+
+div.funny5cdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1000;
+}
+
+div.funny5ddo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-duration: 4.3s;
+  animation-iteration-count: 1000;
+}
+div.funny5edo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-duration: 3.6s;
+  animation-iteration-count: 1000;
+}
+div.funny5fdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-duration: 6.1s;
+  animation-iteration-count: 1000;
+}
+div.funny5gdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example6;
+  animation-duration: 4s;
+  animation-iteration-count: 1000;
+}
+div.funny5hdo {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example7;
+  animation-duration: 6s;
+  animation-iteration-count: 1000;
+}

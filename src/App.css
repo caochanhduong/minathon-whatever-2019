@@ -2,7 +2,7 @@
 .App {
   text-align: center;
  background-image: url('./image1.jpg');
- height: 800px;
+ height: 630px;
  margin-top: -120px;
  padding-top: 5%;
 }
@@ -97,14 +97,14 @@ h1 span:nth-child(14) {
 .App1{
   text-align: center;
   background-image: url('./image1.jpg');
-  height: 800px;
+  height: 630px;
   margin-top: -20px;
   padding-top: 10%;
 }
 .textentry{
   text-align: center;
   background-image: url('./image1.jpg');
-  height: 800px;
+  height: 630px;
   margin-top: -20px;
   padding-top: 10%;
 }
@@ -115,17 +115,12 @@ h1 span:nth-child(14) {
   margin-top: -20px;
   padding-top: 10%;
 }
+
+
 .game1{
   text-align: center;
-  background-image: url('./stage1.jpg');
-  height: 800px;
-  margin-top: -20px;
-  padding-top: 10%;
-}
-.game1{
-  text-align: center;
-  background-image: url('./stage1.jpg');
-  height: 800px;
+  background-image: url('./game1.PNG');
+  height: 505px;
   margin-top: -20px;
   padding-top: 10%;
   background-size: cover;
@@ -144,10 +139,34 @@ h1 span:nth-child(14) {
   margin-top: -20px;
   padding-top: 10%;
 }
+.game3{
+  text-align: center;
+  background-image: url('./stage0.jpg');
+  height: 505px;
+  margin-top: -20px;
+  padding-top: 10%;
+  background-size: cover;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.game3b{
+  text-align: center;
+  background-image: url('./stage05.jpg');
+  height: 505px;
+  margin-top: -20px;
+  padding-top: 10%;
+  background-size: cover;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .game5{
   text-align: center;
-  background-image: url('./stage2.jpg');
-  height: 500px;
+  background-image: url('./game5.PNG');
+  height: 505px;
   margin-top: -20px;
   padding-top: 10%;
   background-size: cover;
@@ -158,8 +177,8 @@ h1 span:nth-child(14) {
 }
 .game6{
   text-align: center;
-  background-image: url('./stage3.jpg');
-  height: 500px;
+  background-image: url('./game6.PNG');
+  height: 505px;
   margin-top: -20px;
   padding-top: 10%;
   background-size: cover;
@@ -170,8 +189,8 @@ h1 span:nth-child(14) {
 }
 .game7{
   text-align: center;
-  background-image: url('./1.PNG');
-  height: 500px;
+  background-image: url('./game7.PNG');
+  height: 505px;
   margin-top: -20px;
   padding-top: 10%;
   background-size: cover;
@@ -182,8 +201,8 @@ h1 span:nth-child(14) {
 }
 .game8{
   text-align: center;
-  background-image: url('./stage5.jpg');
-  height: 500px;
+  background-image: url('./game8.PNG');
+  height: 505px;
   margin-top: -20px;
   padding-top: 10%;
   background-size: cover;
@@ -884,3 +903,26 @@ h1 span:nth-child(14) {
   box-shadow: 0 0 4px 3px #FFF;
 }
 
+.typewriter h1 {
+  font-family: monospace; /* Web-safe typewriter-like font */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}

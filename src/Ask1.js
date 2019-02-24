@@ -4,9 +4,9 @@ class Ask1 extends Component {
     render() {
         return (
 <div className="App" style={{height:'650px'}}>
-            <div style={{backgroundColor:'blue',opacity:0.7,marginTop:'15%',marginLeft:'20%',marginRight:'20%',height:'300px',borderRadius:20}}>
+            <div style={{backgroundColor:'#83C9F4',opacity:0.7,marginTop:'15%',marginLeft:'20%',marginRight:'20%',height:'300px',borderRadius:20,boxShadow:'10px 10px 5px grey'}}>
 
-            <h1 style={{color:'white',paddingBottom:'250px'}}>
+            <h1 style={{paddingBottom:'250px',fontFamily:'URW Chancery L, cursive',color:'white'}}>
 DO YOU FEEL BETTER ?</h1>
  
             <br></br>

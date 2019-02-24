@@ -23,6 +23,11 @@ import Ask1 from './Ask1';
 import Ask2 from './Ask2';
 import Ask3 from './Ask3';
 import FinalScreen from './FinalScreen';
+import giphy from './giphy';
+import Ask4 from './ask4';
+import hahaha from './Hahaha';
+import Ask5 from './ask5';
+import game3b from './game3b';
 class RedirectMain extends Component {
     render() {
         return (
@@ -41,12 +46,18 @@ class RedirectMain extends Component {
             <Route exact path="/ask2" component={Ask2}></Route>
             <Route exact path="/ask3" component={Ask3}></Route>
             <Route exact path="/game2" component={game2}></Route>
-            <Route exact path="/game3" component={game3}></Route>
             <Route exact path="/game4" component={game4}></Route>
             <Route exact path="/game5" component={game5}></Route>
             <Route exact path="/game6" component={game6}></Route>
             <Route exact path="/game7" component={game7}></Route>
             <Route exact path="/game8" component={game8}></Route>
+            <Route exact path="/gift" component={giphy}></Route>
+            <Route exact path="/ask4" component={Ask4}></Route>
+            <Route exact path="/hahaha" component={hahaha}></Route>
+            <Route exact path="/ask5" component={Ask5}></Route>
+            <Route exact path="/finalscreen" component={FinalScreen}></Route>
+            <Route exact path="/game3b" component={game3b}></Route>
+            <Route exact path="/game3" component={game3}></Route>
             <Route exact path="/finalscreen" component={FinalScreen}></Route>
         </Switch>
         );

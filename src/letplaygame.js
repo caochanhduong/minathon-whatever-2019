@@ -7,9 +7,11 @@ class Game2 extends Component {
         return (
             
             <div className="letplaygame" style={{height:'530px'}}>
-            <h1 style={{marginTop:'20px'}}>OK! WE WILL HAVE A GAME FOR YOU.</h1>     
-            <NavLink to="/game1">
-            <button type="button" className="btn btn-success btn-lg btn3d"  ><span className="glyphicon glyphicon-remove" /> CONTINUE</button>
+            <div className="typewriter">
+            <h1 style={{marginTop:'20px',fontFamily:'URW Chancery L, cursive'}}>OK! WE WILL HAVE A GAME FOR YOU.</h1>    
+            </div> 
+            <NavLink to="/game3">
+            <button type="button" className="btn btn-success btn-lg btn3d"  ><span className="glyphicon glyphicon-road" /> CONTINUE</button>
             </NavLink> 
             </div>
         );
